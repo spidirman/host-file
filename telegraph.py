@@ -1,5 +1,5 @@
 import requests, json, os.path
-file_types = {'gif': 'image/gif', 'jpeg': 'image/jpeg', 'jpg': 'image/jpg', 'png': 'image/png', 'mp4': 'video/mp4'}
+file_types = {'gif': 'image/gif', 'jpeg': 'image/jpeg', 'jpg': 'image/jpg', 'png': 'image/png', 'mp4': 'video/mp4'}#all accepted file types by telegraph api
 def telegraph_file_upload(file_types, path_to_file):
     
     file_ext = path_to_file.split('.')[-1]
